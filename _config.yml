@@ -63,8 +63,8 @@ steam:              john_guan
 #xmpp:              username@server.com
 #hackernews:        username
 
-# Gems
-gems:
+# Plugins
+plugins:
   - jekyll-mentions
   - jekyll-feed
   - jekyll-sitemap
