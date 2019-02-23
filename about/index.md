@@ -1,37 +1,44 @@
 ---
 layout: page
-title: About the Theme
-tags: [about, Jekyll, theme, moon]
-date: 2016-03-21
+title: 关于 JohnGuan
+tags: [about, JohnGuan]
+date: 2019-02-23
 comments: false
 ---
     
-<center><a href="http://taylantatli.github.io/Moon"><b>Moon</b></a> is a minimal, one column jekyll theme.</center>
+## 简介
+**管宁川**，John Guan，中国·上海。
 
-## Features
-* Minimal, you can focus on your content
-* Responsive
-* Disqus integration
-* Syntax highlighting
-* Optional post image
-* Social icons
-* Page for sharing projects
-* Optional background image
-* Simple navigation menu
-* MathJax support
+全栈工程师。在科技创新产品和教育领域有多年的实战经验。
 
-## Preview
+<br/> 
 
-{% capture images %}
-    https://cloud.githubusercontent.com/assets/754514/14509720/61c61058-01d6-11e6-93ab-0918515ecd56.png
-    https://cloud.githubusercontent.com/assets/754514/14509716/61ac6c8e-01d6-11e6-879f-8308883de790.png
-{% endcapture %}
-{% include gallery images=images caption="Screenshots of Moon Theme" cols=2 %}
+## 履历
 
-See a [live version of Moon](http://taylantatli.github.io/Moon) hosted on GitHub.
+### IVY·MAKER
 
-## Getting Started
+I·K由哈佛和MIT国际高管背景校友创立，与卡耐基梅隆人工智能教育团队紧密合作，助力6至17岁国内外名校升学的科创兴趣特长培养。
 
-To learn how to install and use this theme check out the [Setup Guide](http://taylantatli.me/Moon/moon-theme/) for more information.
-      
-[Install Moon](https://github.com/TaylanTatli/Moon){: .btn}
+**AI课程总监** \| 2018.04 — 至今
+
+<br/>
+
+### WELabs
+
+专注于人工智能和机器人教育的未来实验室
+
+**技术总监** \| 2017.06 — 2018.03
+
+<br/> 
+
+### 创客大爆炸
+
+Intel中国创客事业最紧密的合作伙伴
+
+**创客创新教育技术总监** \| 2015.03 — 2017.05
+
+<br/> 
+
+---
+
+[**查看更多项目及作品**](//shimo.im/docs/EjQxz8LOkmgxmpiy){: .btn}
