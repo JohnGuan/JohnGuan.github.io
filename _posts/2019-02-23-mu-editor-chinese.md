@@ -16,6 +16,7 @@ comments: true
       
 ## 从这里开始 
 
+[详细了解](https://mu.johnguan.cn){: .btn} 
 [下载](https://mu.johnguan.cn/zh/download){: .btn} 
 [教程](https://mu.johnguan.cn/zh/tutorials){: .btn} 
 [使用指南](https://mu.johnguan.cn/zh/howto){: .btn}
