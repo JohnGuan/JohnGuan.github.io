@@ -8,7 +8,7 @@ logo:               'assets/img/logo.png'
 background:         'assets/img/placeholder-big.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             zh_CN
-url:                
+url:                https://johnguan.cn
 for_china:          true   # Set this true if your website is mainly provided to China.
 
 # Jekyll
