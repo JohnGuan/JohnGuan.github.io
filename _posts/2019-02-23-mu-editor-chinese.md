@@ -3,6 +3,7 @@ layout:   post
 title:    "Mu编辑器 · 中文版"
 date:     2019-02-23
 excerpt:  "一个适合初学者的 Python 编辑器。"
+feature:  https://mu.johnguan.cn/img/logo.png
 project:  true
 tag:
 - python
