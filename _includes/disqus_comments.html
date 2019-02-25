@@ -2,6 +2,16 @@
     {% if site.for_china.disqus  %}
     <link rel="stylesheet" href="{{ site.url }}/assets/css/iDisqus.min.css" />
     <script src="{{ site.url }}/assets/js/iDisqus.min.js"></script>
+    <script>
+        var disq = new iDisqus('disqus_thread', {
+            forum: '{{ site.disqus_shortname }}',
+            api: 'https://api.johnguan.cn/disqus', 
+            site: 'https://johnguan.cn',
+            mode: 1,
+            timeout: 3000,
+            init: true
+        });
+    </script>
     {% else %}
     <script type="text/javascript">
         var disqus_shortname = '{{ site.disqus_shortname }}';
