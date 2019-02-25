@@ -24,7 +24,21 @@ layout: compress
                 {{ content }}
             </div>
         </div>
-        {% if page.comments and site.disqus_shortname %}<section id="disqus_thread" class="animated fadeInUp"></section><!-- /#disqus_thread -->{% endif %}
+        {% if page.comments and site.disqus_shortname %}
+        <section id="disqus_thread" class="animated fadeInUp"></section><!-- /#disqus_thread -->
+        {% if site.for_china.disqus  %}
+        <script>
+            var disq = new iDisqus('disqus_thread', {
+                forum: '{{ site.disqus_shortname }}',
+                api: 'https://api.johnguan.cn/disqus', 
+                site: 'https://johnguan.cn',
+                mode: 1,
+                timeout: 3000,
+                init: true
+            });
+        </script>
+        {% endif %}
+        {% endif %}
     </header>
     {% include scripts.html %}
     {% if site.mathjax == true %}
