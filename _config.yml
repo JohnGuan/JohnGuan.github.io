@@ -9,7 +9,8 @@ background:         'assets/img/placeholder-big.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             zh_CN
 url:                https://johnguan.cn
-for_china:          true   # TODO # Set this true if your website is mainly provided to China.
+for_china:   # TODO # Set this true if your website is mainly provided to China.
+  disqus:           true   # Set this true if you want to set special optimizations for Disqus. See:https://github.com/fooleap/disqus-php-api
 
 # Jekyll
 permalink:          /:title/
@@ -25,7 +26,7 @@ mathjax:            true
 sass:
   sass_dir:         _sass
   style:            compressed
-date_formatting:    "%Y 年 %m 月 %d 日" # TODO
+date_formatting:    "%Y 年 %m 月 %d 日"   # TODO
 
 # Comments
 disqus_shortname:   johnguan
